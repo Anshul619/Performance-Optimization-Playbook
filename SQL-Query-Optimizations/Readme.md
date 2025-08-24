@@ -30,4 +30,11 @@ This shows how the database executes your query (index scan, sequential scan, jo
 | Prevent JSON/JSONB Columns for Filters    | 🟢 Low   | Hard to index, slow for filtering. Normalize when possible.                                                                                                                                        |
 | Batch Inserts/Updates                     | 🟢 Low   | Send multiple rows in one statement instead of row-by-row.                                                                                                                                         |
 
-[Read more](https://www.datacamp.com/blog/sql-query-optimization)
+# Read more
+- [SQL Query Optimization: 15 Techniques for Better Performance](https://www.datacamp.com/blog/sql-query-optimization)
+- [SQL Tunning - Donnemartin](https://github.com/donnemartin/system-design-primer#sql-tuning)
+- [Understanding caching in Postgres - An in-depth guide](https://madusudanan.com/blog/understanding-postgres-caching-in-depth/)
+- [Tuning Input/Output (I/O) Operations for PostgreSQL](https://severalnines.com/blog/tuning-io-operations-postgresql/)
+- [Secret To Optimizing SQL Queries - Understand The SQL Execution Order](https://www.youtube.com/watch?v=BHwzDmr6d7s)
+- [Analyzing Amazon RDS Database Workloads with Performance Insights](https://aws.amazon.com/blogs/database/analyzing-amazon-rds-database-workload-with-performance-insights/)
+- [How does SQL trigger affect performance?](https://stackoverflow.com/questions/56990262/how-does-sql-trigger-affect-performance)

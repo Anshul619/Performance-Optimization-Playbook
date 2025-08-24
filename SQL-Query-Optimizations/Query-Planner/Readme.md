@@ -15,7 +15,7 @@ EXPLAIN ANALYSE <SQL-Query>
 
 # Case Studies
 
-| Case Study                                                      | Remarks                                              |
-|-----------------------------------------------------------------|------------------------------------------------------|
+| Case Study                                                          | Remarks                                              |
+|---------------------------------------------------------------------|------------------------------------------------------|
 | [Finding Orders for a Customer](../Case-Studies/CustomerOrders.md)  | Simple Case study with sequential scan vs indexes    |
 | [Finding all customer orders](../Case-Studies/AllCustomerOrders.md) | Optimization using indexes and pre-aggregation helps |
